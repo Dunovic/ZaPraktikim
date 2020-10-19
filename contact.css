@@ -1,0 +1,362 @@
+body{
+    background-color: #ee8421;
+}
+
+.desno {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(89.8deg,#1db954 80.5%, black 81%, transparent 50%);   
+   }
+
+   .levo{
+    position: absolute;
+    width:50%;
+    height: 100%;
+    
+    background: linear-gradient(89.8deg,#ee8421 80.5%, black 81%, transparent 50%);   
+   
+   }
+
+   #trans{
+    position: absolute;
+    margin-top: 22%;
+    left:22%;
+    color: white;
+    font-size: 37px;
+    background-color: #1db954;
+   z-index: 50;
+    border:  4px solid white;
+    border-radius: 80%;
+    width: 5%;
+    height: 78px;
+    box-shadow: 5px 9px 5px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #trans{
+    -webkit-animation:anim 1.5s ease-in-out infinite both;animation:heartbeat 1.5s ease-in-out infinite both;
+  }
+
+
+  ul {
+  
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ee8421;
+    border-radius: 12px;
+    width: 81px;
+  }
+  
+  
+  li a {
+    display: inline-block;
+    margin-bottom:5px;
+    color: white;
+    padding: 20px 6px;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  
+  
+  li a:hover {
+    background-color: #1db954;
+    color: white;
+    border: 2px solid #ee8421;
+    border-radius: 12px;
+  }
+  
+  
+  span{
+    position: absolute;
+    top: 50%;
+    left:98%;
+    position: fixed;
+    
+  }
+  
+  
+  .overlay {
+    
+      height: 100%;
+      width: 0;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 80%;
+      background-color: rgb(0,0,0);
+      background-color: transparent;
+      overflow-x: hidden;
+      transition: 0.5s;
+      position: fixed;
+  }
+  
+  .overlay-content {
+         position: relative;
+         top:37%;
+         width: 100%;
+         text-align: center;
+         margin-top: 30px;
+    
+  }
+  
+  .overlay a {
+       padding: 8px;
+       text-decoration: none;
+       font-size: 36px;
+       color: white;
+       display: block;
+       transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+          color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+       position: absolute;
+       top: 20px;
+       right: 45px;
+       font-size: 60px;
+       color: white;
+  }
+  
+
+  form { 
+    position: absolute;
+    display: block;
+    margin-top: 0em;
+    border: none;
+    z-index: 10;
+    top: 20%;
+    left: 15%;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    box-shadow: 10px 2px 5px 2px rgba(0,0,0,0.75);
+  }
+
+  #sub{
+   margin-top: 30%;
+  
+  }
+
+  #txtA{
+    margin-top: 10%;
+    text-align: left;
+    resize: none;
+  }
+
+.sve{
+  position: absolute;
+  left: 55%;
+  top:10%;
+}
+
+input[type="text"] {
+  height: 40px;
+  width:70%;
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 2px 5px 2px rgba(0,0,0,0.75);
+  decoration:none;
+}
+
+
+
+h1{
+ 
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 5px 2px black;
+
+  position: absolute;
+  left: -100%;
+  top: -35%;
+}
+
+#sub{
+  height: 40px;
+  width:70%;
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 2px 5px 2px rgba(0,0,0,0.75);
+}
+
+
+#sub:hover{
+  background-color: #ee8421;
+  
+}
+
+#txtA{
+  background-color: transparent;
+  box-shadow: 10px 2px 5px 2px rgba(0,0,0,0.75);
+  color: black;
+  font-weight: bold;
+  border: 1px solid white;
+  text-align: center;
+}
+
+
+.fa-instagram{
+  position: absolute;
+  left: -150%;
+  color: white;
+  
+}
+
+.koverta{
+  position: absolute;
+  color: white;
+  left: -130%;
+  top: -3%;
+  font-weight: bold;
+}
+
+.instagram{
+  position: absolute;
+  left: -130%;
+  top: 84%;
+  font-weight: bold;
+  color: white;
+}
+
+
+  
+     @-webkit-keyframes anim{from{
+      -webkit-transform:scale(1.5);
+      transform:scale(1);
+      -webkit-transform-origin:center center;
+      transform-origin:center center;
+      -webkit-animation-timing-function:ease-out;
+      animation-timing-function:ease-out}
+  
+      10%{-webkit-transform:scale(.1);
+         transform:scale(.91);
+         -webkit-animation-timing-function:ease-in;
+         animation-timing-function:ease-in}
+  
+         17%{-webkit-transform:scale(.98);
+             transform:scale(.98);
+             -webkit-animation-timing-function:ease-out;
+             animation-timing-function:ease-out}
+  
+             33%{-webkit-transform:scale(.87);
+                 transform:scale(.87);
+                 -webkit-animation-timing-function:ease-in;
+                 animation-timing-function:ease-in}
+  
+                 45%{-webkit-transform:scale(1);
+                     transform:scale(1);
+                     -webkit-animation-timing-function:ease-out;
+                     animation-timing-function:ease-out}}
+  
+                     @keyframes heartbeat{from{-webkit-transform:scale(1);
+                         transform:scale(1);
+                         -webkit-transform-origin:center center;transform-origin:center center;
+                         -webkit-animation-timing-function:ease-out;
+                         animation-timing-function:ease-out}
+  
+                         10%{-webkit-transform:scale(.91);
+                             transform:scale(.91);
+                             -webkit-animation-timing-function:ease-in;
+                             animation-timing-function:ease-in}
+  
+                             17%{-webkit-transform:scale(.98);transform:scale(.98);
+                                 -webkit-animation-timing-function:ease-out;
+                                 animation-timing-function:ease-out}
+  
+                                 33%{-webkit-transform:scale(.87);
+                                     transform:scale(.87);
+                                     -webkit-animation-timing-function:ease-in;
+                                     animation-timing-function:ease-in}
+                                     
+                                     45%{-webkit-transform:scale(1);transform:scale(1);
+                                         -webkit-animation-timing-function:ease-out;
+                                         animation-timing-function:ease-out}}
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 25px;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    position: absolute;
+    left: -80%;
+    top: -35%;
+  }
+
+  form { 
+    left: 10%;
+    height: 55%;
+    width: 60%;
+    
+  }
+
+  input[type="text"] {
+    width:70%;
+    margin-left: -40%;
+    margin-top: 0%;
+    
+    
+  }
+
+  #trans{
+    position: absolute;
+    margin-top: 60%;
+    left:15%;
+    border: 3px solid white;
+    width: 15%;
+    
+  }
+
+  #txtA{
+    margin-top: 20%;
+    width: 90%;
+    margin-left: -35%;
+  }
+
+  #sub{
+    margin-left: -35%;
+   
+   }
+
+   .overlay a {
+    font-size: 26px;
+}
+
+span{
+  left:90%;
+  
+}
+
+.desno {
+  background: linear-gradient(89.8deg,#1db954 80.5%, black 82%, transparent 50%);   
+ }
+
+ .fa-instagram{
+  left: -112%;
+  top: -5%;
+}
+
+.koverta{
+  left: -85%;
+  top: -8%;
+}
+
+}

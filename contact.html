@@ -1,0 +1,55 @@
+ <html>
+    <head>
+        <title>Contact</title>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="contact.css">
+    </head>
+        <body>
+            <div class="desno"></div>
+            
+
+            <a class="dugme" href="portfolioP.html"> <button id="trans">ND</button></a>
+
+            <div id="navi" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="zatvori()">&times;</a>
+                <div class="overlay-content">
+                <li><a href="index.html" id="home">Home</a></li>
+              
+                <li><a href="#home">Contact</a></li>
+              </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer;color: white;" onclick="otvori()">&#9776;</span>
+
+
+           <div id="eror"></div>
+
+            <form name="forma" id="form" action="/action_page.php"  method="GET">
+
+
+              <div class="levo"></div>
+
+            <div class="sve">
+
+              <p class="koverta">@dunovc</p>
+              <i class="fab fa-instagram"style="font-size:30px;"></i>
+
+              <h1>Send me a message</h1>
+                
+                <input type="text" id="ime" name="ime" placeholder="First name"><br><br>
+                <input type="text" id="prezime" name="prezime" placeholder="Last name" ><br><br>
+                <input type="text" id="email" name="email" placeholder="E-mail" ><br>
+                <textarea id="txtA" name="txtA" rows="4" cols="30" placeholder="Enter a message" > </textarea><br> 
+         
+                <button id="sub" type="submit" onclick="sacuvaj()">Send</button>
+                
+             </div>
+              </form>
+
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+            <script src="contact.js"></script>  
+        </body>
+    
+</html>
